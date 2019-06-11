@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'bat "mvn clean -f github-maven-example"'
+        sh 'bat "mvn clean -f github-maven-example_master"'
       }
     }
   }
